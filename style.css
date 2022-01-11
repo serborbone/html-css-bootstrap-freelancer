@@ -1,0 +1,47 @@
+.container {
+  min-height: 100px;
+  background-color: brown;
+}
+
+.container-fluid {
+  min-height: 100px;
+  background-color: brown;
+}
+
+.ms_nav-head {
+  background-color: #2C3E50;
+  height: 100px;
+}
+
+.ms_jumbo {
+  height: 500px;
+  background-color: #1ABC9C;
+  margin-top: 100px;
+}
+
+.ms_col {
+  background-color: yellow;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+.ms_about {
+  background-color: #1ABC9C;
+  min-height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ms_contact {
+  min-height: 400px;
+  background-color: burlywood;
+}
+
+.ms_footer-nav {
+  background-color: #3A546D;
+  margin-top: 10px;
+}
+.ms_footer-copy {
+  background-color: #2C3E50;
+}
