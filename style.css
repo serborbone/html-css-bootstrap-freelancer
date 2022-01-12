@@ -40,7 +40,7 @@
 }
 
 .ms_line {
-  min-width: 140px ;
+  min-width: 100px ;
 }
 
 .ms_b-row-jumbo {
@@ -58,9 +58,14 @@
 
 .ms_about {
   background-color: #1ABC9C;
-  min-height: 300px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/* Wrap sezione ABOUT */
+
+.ms_wrap-w {
+  width: 70%;
 }
 
 .ms_contact {
