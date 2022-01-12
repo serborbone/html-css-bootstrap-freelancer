@@ -1,22 +1,23 @@
 .container {
-  min-height: 100px;
-  background-color: brown;
+  /* min-height: 100px; */
+  /* background-color: brown; */
 }
 
 .container-fluid {
   min-height: 100px;
-  background-color: brown;
+  /* background-color: brown; */
 }
 
-.ms_nav-head {
+.ms_navbar {
   background-color: #2C3E50;
-  height: 100px;
+  color: #fff;
+  min-height: 80px;
 }
 
 .ms_jumbo {
   height: 500px;
   background-color: #1ABC9C;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .ms_col {
