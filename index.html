@@ -9,6 +9,7 @@
       <title>Bootstrap Freelancer</title>
 
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
       <link rel="stylesheet" href="style.css">
 
@@ -84,7 +85,7 @@
               <!-- PORTFOLIO header -->
               <div class="row mb-3">
 
-                  <h2 class="col-12 text-uppercase ms_header text-center mb-3">Portfolio</h2>
+                  <h2 class="col-12 text-uppercase ms_header text-center mb-3 text-dark">Portfolio</h2>
               
                   <div class="row justify-content-center m-auto">
                       <div class="col-2 d-flex align-items-center ms_line"><div class="ms_star-dark-row"></div></div>
@@ -113,7 +114,7 @@
           <!-- ABOUT SECTION -->
           <section class="ms_about">
 
-                  <div class="ms_wrap-w m-auto pt-4 pb-4 text-white">
+                  <div class="ms_wrap-w m-auto pt-5 pb-5 text-white">
                       <div class="row m-auto">
 
                               <div class="row">
@@ -137,7 +138,7 @@
                       </div>
 
                       <div class="d-flex justify-content-center">
-                          <button type="button" class="btn btn-outline-light text-center"><i class="bi bi-download"></i> Download</button>
+                          <button type="button" class="btn btn-outline-light text-center mt-2"><i class="bi bi-download"></i> Download</button>
                       </div>
                   </div>
           </section>    
@@ -146,15 +147,98 @@
 
       <footer>
 
-          <div class="container ms_contact">
-              CONTACT ME
+          <div class="container">
+              <div class="row">
+                  <h2 class="col-12 text-uppercase ms_header text-center mb-3 text-dark">Contact ME</h2>
+              </div>
+
+              <div class="row justify-content-center m-auto">
+                 <div class="col-2 d-flex align-items-center ms_line"><div class="ms_star-dark-row"></div></div>
+                  <div class="col-1 d-flex justify-content-center"><i class="bi bi-star-fill text-dark"></i></div>
+                  <div class="col-2 d-flex align-items-center ms_line"><div class="ms_star-dark-row"></div></div>
+              </div>
+
+              <!-- FORM -->
+              <form class="pt-5 pb-5">
+
+                  <div class="ms_wrap-w m-auto">
+
+                      <div class="mb-3">
+                        <input type="email" class="form-control ms_form" placeholder="Name" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control ms_form" placeholder="Email Address" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <input type="email" class="form-control ms_form" placeholder="Phone Number" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <textarea class="form-control ms_form" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-success">Send</button>
+
+                  </div>
+
+              </form>
+
           </div>
 
-          <div class="container-fluid ms_footer-nav">
-              FOOTER NAV
+          <!-- FOOTER -->
+          <div class="ms_footer">
+
+              <div class="container pt-4 pb-4">
+                  <div class="row">
+
+                      <!-- COLONNA UNO -->
+                      <div class="col-12 col-md-4 ms_row-foot align-items-center">
+                          <div class="row">
+                              <h4 class="text-uppercase text-white text-center">Location</h4>
+                          </div>
+
+                          <div class="row">
+                              <div class="text-white text-center">2215 John Daniel Drive Clark,</div>
+                              <p class="text-white text-center">MO 54243</p>
+                          </div>
+                      </div>
+
+                      <!-- COLONNA DUE -->
+                      <div class="col-12 col-md-4 ms_row-foot align-items-center">
+                          <div class="row">
+                              <h4 class="text-uppercase text-white text-center text-uppercase">Around the Web</h4>
+                          </div>
+
+                          <div class="row mt-2">
+                              <div class="text-white text-center ms_row-social">
+                                  <i class="bi bi-facebook"></i> 
+                                  <i class="bi bi-instagram"></i> 
+                                  <i class="bi bi-twitter"></i>
+                                  <i class="bi bi-linkedin"></i>
+                              </div>
+                          </div>
+                      </div>
+
+                      <!-- COLONNA TRE -->
+                      <div class="col-12 col-md-4 ms_row-foot align-items-center">
+                          <div class="row">
+                              <h4 class="text-uppercase text-white text-center">About Freelancer</h4>
+                          </div>
+
+                          <div class="row">
+                              <div class="text-white text-center">Freelance is a free to use, open source Bootstrap <br> theme created by <a href="#" class="ms_start-foot">Start Bootstrap.</a></div>
+                          </div>
+                      </div>
+
+                  </div>
+
+              </div>
+
           </div>
+
+          <!-- COPYRIGHT -->
           <div class="container-fluid ms_footer-copy">
-              COPYRIGHT
+              <div class="row pt-4 pb-2 align-items-center">
+                  <p class="text-center text-white">Copyright <i class="far fa-copyright"></i> Your Website 2022</p>
+              </div>
           </div>
 
       </footer>
