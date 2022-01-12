@@ -68,9 +68,13 @@
   width: 70%;
 }
 
-.ms_contact {
-  min-height: 400px;
-  background-color: burlywood;
+/* BORDER NONE Form*/
+
+.ms_form {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
 }
 
 .ms_footer-nav {
