@@ -8,17 +8,52 @@
   /* background-color: brown; */
 }
 
+/* header NAVBAR */
+
 .ms_navbar {
   background-color: #2C3E50;
   color: #fff;
   min-height: 80px;
 }
 
+/* JUMBOTRON */
+
 .ms_jumbo {
-  height: 500px;
   background-color: #1ABC9C;
   margin-top: 80px;
+  padding-bottom: 40px;
 }
+
+.ms_jumbo-pic {
+  max-width: 200px;
+}
+
+.ms_h1-jumbo {
+  font-size: 45px;
+  color: #fff;
+}
+
+.ms_star-row {
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+}
+
+.ms_line {
+  min-width: 140px ;
+}
+
+.ms_star i {
+  color: #fff;
+}
+
+.ms_b-row-jumbo {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* COLONNE IMG */
 
 .ms_col {
   background-color: yellow;
